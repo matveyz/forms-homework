@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    fieldset {
+        border: 1px solid grey;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    
+    label {
+        width: 150px;
+        display: inline-block;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="main">
+            <div id="container">
+                <div id="content" role="main">
+                    <h1><strong>Order Form</strong></h1>
+                    <fieldset>
+                        <legend>General Info</legend>
+                        <label for="email">
+                            Email
+                        </label>
+                        <input type="text" name="email" id="email" placeholder="your@email.com" size="21">
+                        <br>
+                        <label for="login">
+                            Login
+                        </label>
+                        <input type="text" name="login" id="login" placeholder="Login" size="21">
+                        <br>
+                        <label for="password">
+                            Password
+                        </label>
+                        <input type="text" name="password" id="password" placeholder="Password" size="21">
+                        <br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>User Info</legend>
+                        <label for="first name">
+                            First Name
+                        </label>
+                        <input type="text" name="first name" id="first name" placeholder="John" size="21">
+                        <br>
+                        <label for="second name">
+                            Second Name
+                        </label>
+                        <input type="text" name="second name" id="second name" placeholder="Doe" size="21">
+                        <br>
+                        <label for="checkbox">
+                            Gender
+                        </label>
+                        <input type="checkbox" name="checkbox" id="checkbox" value="checkbox1" checked> Male
+                        <input type="checkbox" name="checkbox" value="checkbox2"> Female
+                        <br>
+                        <label for="age">
+                            Age
+                        </label>
+                        <input type="text" name="age" id="age" placeholder="32" size="21">
+                        <br>
+                        <form>
+                            <label for="about me">
+                                About me
+                            </label>
+                            <textarea id="about me" class="input" name="about me" rows="5" cols="21"></textarea>
+                        </form>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Order info</legend>
+                        <label for "select">
+                            Product
+                        </label>
+                        <select>
+                            <option value="Iphone">Iphone</option>
+                            <option value="Samsung">Samsung</option>
+                            <option value="Nokia">Nokia</option>
+                        </select>
+                        <br>
+                        <label for="color">
+                            Front Colore
+                        </label>
+                        <input type="radio" name="color" id="color" value="colore1">Black
+                        <input type="radio" name="color" value="colore2">Pink
+                        <input type="radio" name="color" value="colore3">Gold
+                        <br>
+                        <label for="Back-side-color">
+                            Back-side-color
+                        </label>
+                        <input type="color" name="Back-side-color">
+                        <br>
+                        <label for="amount">
+                            Amount
+                        </label>
+                        <input type="text" name="amount" id="amount" placeholder="5">
+                        <br>
+                        <label for="delivery date">
+                            Delivery Date
+                        </label>
+                        <input type="text" name="delivery date" id="delivery date" value="mm/dd/yyyy">
+                    </fieldset>
+                    <input type="Reset" name="Reset" value="Reset">
+                    <input type="Submit" name="Submit" value="Submit">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
